@@ -1,0 +1,240 @@
+body {
+  box-sizing: border-box;
+  font-family: "Averta";
+}
+* {
+padding:0 ;
+margin: 15px auto;
+}
+
+@font-face {
+  font-family: "Averta";
+  src: url(./fonts/Averta-Bold.woff);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Averta";
+  src: url(./fonts/Averta.woff);
+}
+@font-face {
+  font-family: "Averta";
+  src: url(./fonts/Averta\ Black.woff);
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Averta";
+  src: url(./fonts/Averta\ Extra\ Bold.woff);
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Averta";
+  src: url(./fonts/Averta\ Extrathin.woff);
+  font-weight: 150;
+}
+@font-face {
+  font-family: "Averta";
+  src: url(./fonts/Averta\ Light.woff);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Averta";
+  src: url(./fonts/Averta\ Semibold.woff);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Averta";
+  src: url(./fonts/Averta\ Thin.woff);
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Averta";
+  src: url(./fonts/AvertaDemo-Regular.otf);
+  font-weight: 400;
+}
+.border {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 80px 100px;
+}
+ul li,
+.border p,.border-3 p {
+  line-height: 3;
+  font-size: 19px;
+  font-weight: 300;
+}
+.border img {
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+button {
+  background-color: #feb026;
+  border: #feb026;
+  padding: 15px;
+  width: 150px;
+  color: #03a84e;
+  box-shadow: 10px 8px 8px #feaf26ab;
+  font-size: 18px;
+  font-size: 300;
+}
+.images {
+  width: 200px;
+  object-fit: contain;
+  height: 300px;
+}
+.container {
+  background-color: #f2fbf6;
+ 
+}
+.box {
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 50px;
+  height: 500px;
+ 
+}
+.accessories {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  padding: 30px;
+  align-items: center;
+
+}
+.box h3
+ {
+  font-size: 25px;
+  font-weight: 500;
+}
+.testimony h3 {
+  font-size: 23px;
+  font-weight: 700;
+}
+.box h2,.border-3 h2 {
+  font-weight: 700;
+  font-size: 30px;
+}
+.box p,.testimony p,.border-2,footer p {
+  font-size: 18px;
+  color: #4f4f4f;
+  font-weight: 300;
+}
+
+.img {
+  text-align: center;
+}
+.border h6 {
+  font-size: 18px;
+  font-weight: 300;
+}
+.border-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.border-1 p {
+  font-size: 18px;
+  color: #4f4f4f;
+  font-weight: 300;
+  line-height: 1.5;
+  width: 400px;
+}
+.border-2 p {
+  line-height: 1.5;
+  font-size: 20px;
+}
+.border h2 {
+  font-size: 35px;
+  font-weight: 800;
+}
+.category {
+  display: flex;
+  justify-content: center;
+}
+.categories h3{
+  color: #03a84e;
+  text-align: center;
+  font-size: 22px;
+}
+.categories {
+  padding: 10px;
+}
+.para {
+  background-color: white;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 180px;
+  text-align: center;
+}
+.border-2 {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+.border-2 img {
+  border-radius: 50px;
+  width: 10%;
+}
+.testimony {
+  text-align: center;
+  margin: 80px auto;
+}
+.border-1 {
+  background-color: white;
+  padding: 30px;
+}
+.border-3 {
+  background-color: black;
+  color: white;
+  width: 80%;
+  margin: 50px auto;
+  background-image: url(./images/Group\ 24.png);
+  padding: 100px;
+  text-align: center;
+}
+input {
+  width: 50%;
+  padding: 15px;
+  font-size: 17px;
+  font-weight: 100;
+ 
+}
+.submit {
+  width: 80px;
+  color: #03a84e;
+  background-color: #feb026;
+  border: #feb026;
+  box-shadow: 10px 5px 5px #feaf265b;
+  padding: 15px;
+}
+footer {
+  display: flex;
+  background-color:#ffff;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+@media (max-width:700px) {
+  .border {
+    flex-direction: column-reverse;
+  }
+  .category {
+    width: 700px;
+
+  }
+  .container {
+    background-color:white;
+  }
+  .border-1 {
+    flex-direction: column-reverse;
+  }
+  .accessories {
+ display: block;
+
+  }
+}
