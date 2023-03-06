@@ -235,6 +235,18 @@ footer {
   }
   .accessories {
  display: block;
-
   }
+  footer {
+    display: block;
+    text-align: center;
+  }
+.border-1 img {
+  width: 500px;
+}
+.border-3 {
+  width: 73%;
+}
+.container {
+  background-color: #f2fbf6;
+}
 }
