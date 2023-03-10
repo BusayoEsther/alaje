@@ -1,10 +1,8 @@
 body {
   box-sizing: border-box;
   font-family: "Averta";
-}
-* {
-padding:0 ;
-margin: 15px auto;
+ margin: 0;
+ 
 }
 
 @font-face {
@@ -54,12 +52,12 @@ margin: 15px auto;
 .border {
   display: flex;
   justify-content: space-between;
-
   padding: 80px 100px;
 }
 ul li,
-.border p,.border-3 p {
-  line-height: 3;
+.border p,
+.border-3 p {
+  line-height: 2.5;
   font-size: 19px;
   font-weight: 300;
 }
@@ -70,12 +68,13 @@ ul li,
 button {
   background-color: #feb026;
   border: #feb026;
-  padding: 15px;
+  padding: 10px;
   width: 150px;
   color: #03a84e;
   box-shadow: 10px 8px 8px #feaf26ab;
   font-size: 18px;
   font-size: 300;
+  font-family: "Averta";
 }
 .images {
   width: 200px;
@@ -84,26 +83,20 @@ button {
 }
 .container {
   background-color: #f2fbf6;
- 
 }
 .box {
   background-color: white;
   text-align: center;
   padding: 15px;
-  margin-bottom: 50px;
-  height: 500px;
- 
+  margin-bottom: 20px;
 }
 .accessories {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+ grid-template-columns: auto auto auto auto ;
   gap: 20px;
   padding: 30px;
-  align-items: center;
-
 }
-.box h3
- {
+.box h3 {
   font-size: 25px;
   font-weight: 500;
 }
@@ -111,11 +104,15 @@ button {
   font-size: 23px;
   font-weight: 700;
 }
-.box h2,.border-3 h2 {
+.box h2,
+.border-3 h2 {
   font-weight: 700;
   font-size: 30px;
 }
-.box p,.testimony p,.border-2,footer p {
+.box p,
+.testimony p,
+.border-2,
+footer p {
   font-size: 18px;
   color: #4f4f4f;
   font-weight: 300;
@@ -147,12 +144,13 @@ button {
 .border h2 {
   font-size: 35px;
   font-weight: 800;
+  width: 500px;
 }
 .category {
   display: flex;
   justify-content: center;
 }
-.categories h3{
+.categories h3 {
   color: #03a84e;
   text-align: center;
   font-size: 22px;
@@ -202,7 +200,6 @@ input {
   padding: 15px;
   font-size: 17px;
   font-weight: 100;
- 
 }
 .submit {
   width: 80px;
@@ -214,39 +211,37 @@ input {
 }
 footer {
   display: flex;
-  background-color:#ffff;
+  background-color: #ffff;
   justify-content: space-around;
   align-items: center;
- 
 }
-@media (max-width:700px) {
+@media (max-width: 700px) {
   .border {
     flex-direction: column-reverse;
   }
   .category {
     width: 700px;
-
   }
   .container {
-    background-color:white;
+    background-color: white;
   }
   .border-1 {
     flex-direction: column-reverse;
   }
   .accessories {
- display: block;
+    display: block;
   }
   footer {
     display: block;
     text-align: center;
   }
-.border-1 img {
-  width: 500px;
-}
-.border-3 {
-  width: 73%;
-}
-.container {
-  background-color: #f2fbf6;
-}
+  .border-1 img {
+    width: 500px;
+  }
+  .border-3 {
+    width: 73%;
+  }
+  .container {
+    background-color: #f2fbf6;
+  }
 }
